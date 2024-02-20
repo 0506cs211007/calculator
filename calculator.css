@@ -1,0 +1,64 @@
+.containor{
+    padding: 15px;
+    box-shadow:0 0 15px #000;
+    border: 2px solid white;
+    border-radius:15px;
+    background-color:darkslategray
+}
+.textBox input{
+    
+    width:360px;
+    border:none;
+    outline:none;
+    padding:20px;
+    margin:10px;
+    background:transparent;
+    color:#fff;
+    font-size:40px;
+    text-align:right;
+    cursor:pointer;
+
+}
+.opr{
+    color:yellow;
+    background:rgba(0, 0, 0, 0.95);
+    font-weight:700;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(17, 18, 18);
+}
+button{
+    width:70px;
+    height:70px;
+    margin:10px;
+    background:transparent;
+    color:white;
+    font-size:22px;
+    font-weight:600;
+    border:0;
+    box-shadow:-5px -5px 15px #000 ;
+    border-radius:50%;
+    cursor:pointer;
+    
+
+}
+button:active{
+    background:#000;
+    transform:translate (2px,2px);
+
+}
+#equal{
+    background-color: orangered;
+}

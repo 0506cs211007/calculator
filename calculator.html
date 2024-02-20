@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+
+<div class="containor" name="main">
+    <div class="textBox">
+<input  type="text" name="result" placeholder="0" class="Result" id="answer" />
+</div>
+<br>
+
+<div class="rows">
+    <button onclick="clearScreen('AC')" type="button" class="opr"> AC </button>
+    
+    <button onclick="makeDel('DEL')" type="button"class="opr" >DEL  </button>
+    <button onclick="putValue('%')" type="button"class="opr" >%  </button>
+    <button onclick="putValue('/')" type="button" class="opr"> / </button>
+</div>
+<div class="rows">
+    <button onclick="putValue('7')" value="7" type="button" > 7 </button>
+    <button  onclick="putValue('8')" value="8" type="button" >8  </button>
+    
+    <button onclick="putValue('9')" value="9" type="button" > 9 </button>
+    <button onclick="putValue('*')" type="button" class="opr">  *</button>
+</div>
+<div class="rows">
+    <button  onclick="putValue('4')"type="button" value="4" >  4</button>
+    <button  onclick="putValue('5')"type="button" value="5">  5</button>
+    <button  onclick="putValue('6')"type="button" value="6" >  6</button>
+    <button onclick="putValue('+')" type="button" class="opr">  +</button>
+</div>
+<div class="rows">
+    <button onclick="putValue('1')" type="button" value="1" > 1 </button>
+    <button onclick="putValue('2')" type="button" value="2" >2  </button>
+    <button  onclick="putValue('3')"type="button" value="3"> 3 </button>
+    <button  onclick="putValue('-')"type="button" class="opr"> - </button>
+</div>
+<div class="rows">
+    <button onclick="putValue('00')" type="button" value="00" > 00 </button>
+    <button  onclick="putValue('.')"type="button" > . </button>
+    <button  onclick="putValue('0')"type="button" value="0" >0  </button>
+    <button onclick="getAns('=')" type="button" id="equal"> = </button>
+</div>
+
+</div>
+
+
+<!--<script src="calculator.js"></script>-->
+</body>
+</html>
